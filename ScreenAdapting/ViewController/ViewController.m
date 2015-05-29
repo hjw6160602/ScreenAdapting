@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "LoginViewController.h"
-
+#import "RegisterViewController.h"
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -27,8 +27,9 @@
 }
 
 - (IBAction)PUSH {
-    LoginViewController* loginVC = [LoginViewController new];
-    [self.navigationController pushViewController:loginVC animated:YES];
+    //LoginViewController* loginVC = [LoginViewController new];
+    RegisterViewController* registerVC = [RegisterViewController new];
+    [self.navigationController pushViewController:registerVC animated:YES];
 }
 
 @end
