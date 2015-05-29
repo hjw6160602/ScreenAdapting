@@ -57,8 +57,6 @@
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
-
-
 - (void)goBack{
     [self.navigationController popViewControllerAnimated:YES];
 }

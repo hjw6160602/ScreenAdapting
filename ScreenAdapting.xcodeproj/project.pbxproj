@@ -19,6 +19,8 @@
 		78C921CB1B1833F5006A3726 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921CA1B1833F5006A3726 /* Utils.m */; };
 		78C921CF1B185295006A3726 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921CD1B185295006A3726 /* RegisterViewController.m */; };
 		78C921D01B185295006A3726 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921CE1B185295006A3726 /* RegisterViewController.xib */; };
+		78C921D41B185E86006A3726 /* ForgetPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921D21B185E86006A3726 /* ForgetPassViewController.m */; };
+		78C921D51B185E86006A3726 /* ForgetPassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921D31B185E86006A3726 /* ForgetPassViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		78C921CC1B185295006A3726 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		78C921CD1B185295006A3726 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		78C921CE1B185295006A3726 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		78C921D11B185E86006A3726 /* ForgetPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassViewController.h; sourceTree = "<group>"; };
+		78C921D21B185E86006A3726 /* ForgetPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassViewController.m; sourceTree = "<group>"; };
+		78C921D31B185E86006A3726 /* ForgetPassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +151,9 @@
 				78C921CC1B185295006A3726 /* RegisterViewController.h */,
 				78C921CD1B185295006A3726 /* RegisterViewController.m */,
 				78C921CE1B185295006A3726 /* RegisterViewController.xib */,
+				78C921D11B185E86006A3726 /* ForgetPassViewController.h */,
+				78C921D21B185E86006A3726 /* ForgetPassViewController.m */,
+				78C921D31B185E86006A3726 /* ForgetPassViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -234,6 +242,7 @@
 				78C921D01B185295006A3726 /* RegisterViewController.xib in Resources */,
 				78C921C01B18138A006A3726 /* Images.xcassets in Resources */,
 				78C921A11B18111D006A3726 /* Main.storyboard in Resources */,
+				78C921D51B185E86006A3726 /* ForgetPassViewController.xib in Resources */,
 				78C921A61B18111D006A3726 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +264,7 @@
 				78C921C51B1813DA006A3726 /* LoginViewController.m in Sources */,
 				78C921CF1B185295006A3726 /* RegisterViewController.m in Sources */,
 				78C921BE1B181289006A3726 /* ViewController.m in Sources */,
+				78C921D41B185E86006A3726 /* ForgetPassViewController.m in Sources */,
 				78C9219B1B18111D006A3726 /* AppDelegate.m in Sources */,
 				78C921CB1B1833F5006A3726 /* Utils.m in Sources */,
 				78C921981B18111D006A3726 /* main.m in Sources */,

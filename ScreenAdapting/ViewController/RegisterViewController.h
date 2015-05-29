@@ -8,21 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate>
-{
-    UITableView *_registerTable;
-    NSInteger _secondsCountDown;
-    NSTimer *_countDownTimer;
-}
+@interface RegisterViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate>
+
 @property (strong, nonatomic) IBOutlet UITableViewCell *registerCell;
 
-
+@property (weak, nonatomic) IBOutlet UIButton *registerBtn;
 @property (weak, nonatomic) IBOutlet UITextField *phoneText;
 @property (weak, nonatomic) IBOutlet UITextField *passwordText;
 @property (weak, nonatomic) IBOutlet UITextField *password1Text;
 @property (weak, nonatomic) IBOutlet UITextField *codeText;
 
 @property (weak, nonatomic) IBOutlet UIButton *codeButton;
-@property (weak, nonatomic) IBOutlet UIButton *registerBtn;
+
 
 @end
