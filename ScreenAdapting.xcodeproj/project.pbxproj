@@ -14,13 +14,13 @@
 		78C921B21B18111D006A3726 /* ScreenAdaptingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921B11B18111D006A3726 /* ScreenAdaptingTests.m */; };
 		78C921BE1B181289006A3726 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921BD1B181289006A3726 /* ViewController.m */; };
 		78C921C01B18138A006A3726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C921BF1B18138A006A3726 /* Images.xcassets */; };
-		78C921C51B1813DA006A3726 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921C41B1813DA006A3726 /* LoginViewController.m */; };
-		78C921C81B182CE4006A3726 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921C71B182CE4006A3726 /* LoginViewController.xib */; };
-		78C921CB1B1833F5006A3726 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921CA1B1833F5006A3726 /* Utils.m */; };
-		78C921CF1B185295006A3726 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921CD1B185295006A3726 /* RegisterViewController.m */; };
-		78C921D01B185295006A3726 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921CE1B185295006A3726 /* RegisterViewController.xib */; };
-		78C921D41B185E86006A3726 /* ForgetPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921D21B185E86006A3726 /* ForgetPassViewController.m */; };
-		78C921D51B185E86006A3726 /* ForgetPassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921D31B185E86006A3726 /* ForgetPassViewController.xib */; };
+		78C921DA1B186589006A3726 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921D91B186589006A3726 /* Utils.m */; };
+		78C921E51B1865C0006A3726 /* ForgetPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921DD1B1865C0006A3726 /* ForgetPassViewController.m */; };
+		78C921E61B1865C0006A3726 /* ForgetPassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921DE1B1865C0006A3726 /* ForgetPassViewController.xib */; };
+		78C921E71B1865C0006A3726 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921E01B1865C0006A3726 /* LoginViewController.m */; };
+		78C921E81B1865C0006A3726 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921E11B1865C0006A3726 /* LoginViewController.xib */; };
+		78C921E91B1865C0006A3726 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921E31B1865C0006A3726 /* RegisterViewController.m */; };
+		78C921EA1B1865C0006A3726 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921E41B1865C0006A3726 /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,18 +47,18 @@
 		78C921BC1B181289006A3726 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		78C921BD1B181289006A3726 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78C921BF1B18138A006A3726 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		78C921C31B1813DA006A3726 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		78C921C41B1813DA006A3726 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		78C921C61B1814C9006A3726 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		78C921C71B182CE4006A3726 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		78C921C91B1833F5006A3726 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		78C921CA1B1833F5006A3726 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		78C921CC1B185295006A3726 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		78C921CD1B185295006A3726 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		78C921CE1B185295006A3726 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		78C921D11B185E86006A3726 /* ForgetPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassViewController.h; sourceTree = "<group>"; };
-		78C921D21B185E86006A3726 /* ForgetPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassViewController.m; sourceTree = "<group>"; };
-		78C921D31B185E86006A3726 /* ForgetPassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassViewController.xib; sourceTree = "<group>"; };
+		78C921D71B186589006A3726 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		78C921D81B186589006A3726 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		78C921D91B186589006A3726 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		78C921DC1B1865C0006A3726 /* ForgetPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassViewController.h; sourceTree = "<group>"; };
+		78C921DD1B1865C0006A3726 /* ForgetPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassViewController.m; sourceTree = "<group>"; };
+		78C921DE1B1865C0006A3726 /* ForgetPassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassViewController.xib; sourceTree = "<group>"; };
+		78C921DF1B1865C0006A3726 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		78C921E01B1865C0006A3726 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		78C921E11B1865C0006A3726 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		78C921E21B1865C0006A3726 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		78C921E31B1865C0006A3726 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		78C921E41B1865C0006A3726 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,7 @@
 			children = (
 				78C921991B18111D006A3726 /* AppDelegate.h */,
 				78C9219A1B18111D006A3726 /* AppDelegate.m */,
-				78C921C91B1833F5006A3726 /* Utils.h */,
-				78C921CA1B1833F5006A3726 /* Utils.m */,
+				78C921D61B186589006A3726 /* Utils */,
 				78C921BB1B181289006A3726 /* ViewController */,
 				78C9219F1B18111D006A3726 /* Main.storyboard */,
 				78C921BF1B18138A006A3726 /* Images.xcassets */,
@@ -142,20 +141,37 @@
 		78C921BB1B181289006A3726 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				78C921C61B1814C9006A3726 /* config.h */,
+				78C921DB1B1865C0006A3726 /* LogRegForget */,
 				78C921BC1B181289006A3726 /* ViewController.h */,
 				78C921BD1B181289006A3726 /* ViewController.m */,
-				78C921C31B1813DA006A3726 /* LoginViewController.h */,
-				78C921C41B1813DA006A3726 /* LoginViewController.m */,
-				78C921C71B182CE4006A3726 /* LoginViewController.xib */,
-				78C921CC1B185295006A3726 /* RegisterViewController.h */,
-				78C921CD1B185295006A3726 /* RegisterViewController.m */,
-				78C921CE1B185295006A3726 /* RegisterViewController.xib */,
-				78C921D11B185E86006A3726 /* ForgetPassViewController.h */,
-				78C921D21B185E86006A3726 /* ForgetPassViewController.m */,
-				78C921D31B185E86006A3726 /* ForgetPassViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		78C921D61B186589006A3726 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				78C921D71B186589006A3726 /* config.h */,
+				78C921D81B186589006A3726 /* Utils.h */,
+				78C921D91B186589006A3726 /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		78C921DB1B1865C0006A3726 /* LogRegForget */ = {
+			isa = PBXGroup;
+			children = (
+				78C921DC1B1865C0006A3726 /* ForgetPassViewController.h */,
+				78C921DD1B1865C0006A3726 /* ForgetPassViewController.m */,
+				78C921DE1B1865C0006A3726 /* ForgetPassViewController.xib */,
+				78C921DF1B1865C0006A3726 /* LoginViewController.h */,
+				78C921E01B1865C0006A3726 /* LoginViewController.m */,
+				78C921E11B1865C0006A3726 /* LoginViewController.xib */,
+				78C921E21B1865C0006A3726 /* RegisterViewController.h */,
+				78C921E31B1865C0006A3726 /* RegisterViewController.m */,
+				78C921E41B1865C0006A3726 /* RegisterViewController.xib */,
+			);
+			path = LogRegForget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C921C81B182CE4006A3726 /* LoginViewController.xib in Resources */,
-				78C921D01B185295006A3726 /* RegisterViewController.xib in Resources */,
+				78C921E81B1865C0006A3726 /* LoginViewController.xib in Resources */,
 				78C921C01B18138A006A3726 /* Images.xcassets in Resources */,
 				78C921A11B18111D006A3726 /* Main.storyboard in Resources */,
-				78C921D51B185E86006A3726 /* ForgetPassViewController.xib in Resources */,
+				78C921E61B1865C0006A3726 /* ForgetPassViewController.xib in Resources */,
 				78C921A61B18111D006A3726 /* LaunchScreen.xib in Resources */,
+				78C921EA1B1865C0006A3726 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C921C51B1813DA006A3726 /* LoginViewController.m in Sources */,
-				78C921CF1B185295006A3726 /* RegisterViewController.m in Sources */,
 				78C921BE1B181289006A3726 /* ViewController.m in Sources */,
-				78C921D41B185E86006A3726 /* ForgetPassViewController.m in Sources */,
+				78C921E51B1865C0006A3726 /* ForgetPassViewController.m in Sources */,
+				78C921E71B1865C0006A3726 /* LoginViewController.m in Sources */,
 				78C9219B1B18111D006A3726 /* AppDelegate.m in Sources */,
-				78C921CB1B1833F5006A3726 /* Utils.m in Sources */,
+				78C921E91B1865C0006A3726 /* RegisterViewController.m in Sources */,
+				78C921DA1B186589006A3726 /* Utils.m in Sources */,
 				78C921981B18111D006A3726 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
