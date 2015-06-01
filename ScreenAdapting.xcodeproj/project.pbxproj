@@ -21,6 +21,14 @@
 		78C921E81B1865C0006A3726 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921E11B1865C0006A3726 /* LoginViewController.xib */; };
 		78C921E91B1865C0006A3726 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921E31B1865C0006A3726 /* RegisterViewController.m */; };
 		78C921EA1B1865C0006A3726 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C921E41B1865C0006A3726 /* RegisterViewController.xib */; };
+		78F25A721B1BFD270095A5D3 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F25A671B1BFD270095A5D3 /* MeViewController.m */; };
+		78F25A731B1BFD270095A5D3 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F25A681B1BFD270095A5D3 /* MeViewController.xib */; };
+		78F25A741B1BFD270095A5D3 /* SplitThickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F25A6A1B1BFD270095A5D3 /* SplitThickCell.m */; };
+		78F25A751B1BFD270095A5D3 /* SplitThickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F25A6B1B1BFD270095A5D3 /* SplitThickCell.xib */; };
+		78F25A761B1BFD270095A5D3 /* SplitThinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F25A6D1B1BFD270095A5D3 /* SplitThinCell.m */; };
+		78F25A771B1BFD270095A5D3 /* SplitThinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F25A6E1B1BFD270095A5D3 /* SplitThinCell.xib */; };
+		78F25A781B1BFD270095A5D3 /* userCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F25A701B1BFD270095A5D3 /* userCenterCell.m */; };
+		78F25A791B1BFD270095A5D3 /* userCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F25A711B1BFD270095A5D3 /* userCenterCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,18 @@
 		78C921E21B1865C0006A3726 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		78C921E31B1865C0006A3726 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		78C921E41B1865C0006A3726 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		78F25A661B1BFD270095A5D3 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		78F25A671B1BFD270095A5D3 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		78F25A681B1BFD270095A5D3 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		78F25A691B1BFD270095A5D3 /* SplitThickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitThickCell.h; sourceTree = "<group>"; };
+		78F25A6A1B1BFD270095A5D3 /* SplitThickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitThickCell.m; sourceTree = "<group>"; };
+		78F25A6B1B1BFD270095A5D3 /* SplitThickCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplitThickCell.xib; sourceTree = "<group>"; };
+		78F25A6C1B1BFD270095A5D3 /* SplitThinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitThinCell.h; sourceTree = "<group>"; };
+		78F25A6D1B1BFD270095A5D3 /* SplitThinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitThinCell.m; sourceTree = "<group>"; };
+		78F25A6E1B1BFD270095A5D3 /* SplitThinCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplitThinCell.xib; sourceTree = "<group>"; };
+		78F25A6F1B1BFD270095A5D3 /* userCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userCenterCell.h; sourceTree = "<group>"; };
+		78F25A701B1BFD270095A5D3 /* userCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userCenterCell.m; sourceTree = "<group>"; };
+		78F25A711B1BFD270095A5D3 /* userCenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = userCenterCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +161,7 @@
 		78C921BB1B181289006A3726 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				78F25A651B1BFD270095A5D3 /* MeViewController */,
 				78C921DB1B1865C0006A3726 /* LogRegForget */,
 				78C921BC1B181289006A3726 /* ViewController.h */,
 				78C921BD1B181289006A3726 /* ViewController.m */,
@@ -172,6 +193,25 @@
 				78C921E41B1865C0006A3726 /* RegisterViewController.xib */,
 			);
 			path = LogRegForget;
+			sourceTree = "<group>";
+		};
+		78F25A651B1BFD270095A5D3 /* MeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78F25A661B1BFD270095A5D3 /* MeViewController.h */,
+				78F25A671B1BFD270095A5D3 /* MeViewController.m */,
+				78F25A681B1BFD270095A5D3 /* MeViewController.xib */,
+				78F25A691B1BFD270095A5D3 /* SplitThickCell.h */,
+				78F25A6A1B1BFD270095A5D3 /* SplitThickCell.m */,
+				78F25A6B1B1BFD270095A5D3 /* SplitThickCell.xib */,
+				78F25A6C1B1BFD270095A5D3 /* SplitThinCell.h */,
+				78F25A6D1B1BFD270095A5D3 /* SplitThinCell.m */,
+				78F25A6E1B1BFD270095A5D3 /* SplitThinCell.xib */,
+				78F25A6F1B1BFD270095A5D3 /* userCenterCell.h */,
+				78F25A701B1BFD270095A5D3 /* userCenterCell.m */,
+				78F25A711B1BFD270095A5D3 /* userCenterCell.xib */,
+			);
+			path = MeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F25A751B1BFD270095A5D3 /* SplitThickCell.xib in Resources */,
+				78F25A731B1BFD270095A5D3 /* MeViewController.xib in Resources */,
 				78C921E81B1865C0006A3726 /* LoginViewController.xib in Resources */,
 				78C921C01B18138A006A3726 /* Images.xcassets in Resources */,
+				78F25A771B1BFD270095A5D3 /* SplitThinCell.xib in Resources */,
 				78C921A11B18111D006A3726 /* Main.storyboard in Resources */,
+				78F25A791B1BFD270095A5D3 /* userCenterCell.xib in Resources */,
 				78C921E61B1865C0006A3726 /* ForgetPassViewController.xib in Resources */,
 				78C921A61B18111D006A3726 /* LaunchScreen.xib in Resources */,
 				78C921EA1B1865C0006A3726 /* RegisterViewController.xib in Resources */,
@@ -278,8 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				78C921BE1B181289006A3726 /* ViewController.m in Sources */,
+				78F25A761B1BFD270095A5D3 /* SplitThinCell.m in Sources */,
 				78C921E51B1865C0006A3726 /* ForgetPassViewController.m in Sources */,
 				78C921E71B1865C0006A3726 /* LoginViewController.m in Sources */,
+				78F25A781B1BFD270095A5D3 /* userCenterCell.m in Sources */,
+				78F25A721B1BFD270095A5D3 /* MeViewController.m in Sources */,
+				78F25A741B1BFD270095A5D3 /* SplitThickCell.m in Sources */,
 				78C9219B1B18111D006A3726 /* AppDelegate.m in Sources */,
 				78C921E91B1865C0006A3726 /* RegisterViewController.m in Sources */,
 				78C921DA1B186589006A3726 /* Utils.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ForgetPassViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate>
+@interface ForgetPassViewController : UIViewController <UITextFieldDelegate>
 
 @property(weak,nonatomic) IBOutlet UITableViewCell *forgetPassCell;
 

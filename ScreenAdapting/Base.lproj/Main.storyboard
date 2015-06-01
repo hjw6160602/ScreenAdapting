@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1hz-na-1oI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tjH-ln-9Km">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
@@ -9,20 +9,13 @@
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJs-8Q-gqZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LJs-8Q-gqZ">
                                 <rect key="frame" x="69" y="217" width="182" height="134"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="182" id="Kt5-pv-CK4"/>
-                                    <constraint firstAttribute="height" constant="134" id="oZM-HR-H00"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="PUSH">
                                     <color key="titleColor" red="0.85098039215686272" green="0.21176470588235294" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,24 +26,54 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="LJs-8Q-gqZ" secondAttribute="centerY" id="76H-hN-81y"/>
-                            <constraint firstAttribute="centerX" secondItem="LJs-8Q-gqZ" secondAttribute="centerX" id="mkT-Tu-kQA"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="我" id="xi2-ya-lHx"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="948" y="501"/>
+            <point key="canvasLocation" x="1921" y="146"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item 2-->
+        <scene sceneID="Plp-KD-Lhm">
+            <objects>
+                <viewController id="Bu0-AJ-pQK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zcx-m9-fQd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="8P9-26-alm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ln-dx-83G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488" y="787"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lKL-Ub-4j4">
+            <objects>
+                <tabBarController id="tjH-ln-9Km" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MmW-xk-zQK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1hz-na-1oI" kind="relationship" relationship="viewControllers" id="qWW-et-Agm"/>
+                        <segue destination="Bu0-AJ-pQK" kind="relationship" relationship="viewControllers" id="Ehe-6f-SSr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iww-Zu-JYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="474"/>
+        </scene>
+        <!--Me-->
         <scene sceneID="O9V-Rg-cOF">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hz-na-1oI" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hz-na-1oI" userLabel="Me" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" id="S0V-9U-kLW"/>
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qyg-xf-nKE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -62,7 +85,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7nj-Zx-cbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="506" y="501"/>
+            <point key="canvasLocation" x="1488" y="146"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

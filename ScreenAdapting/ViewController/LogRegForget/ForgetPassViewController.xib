@@ -161,7 +161,7 @@
                     </view>
                 </subviews>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="825" y="217"/>
+            <point key="canvasLocation" x="488" y="232"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -11,4 +11,7 @@
 
 #define Screen_width self.view.frame.size.width
 #define Screen_height self.view.frame.size.height
+
+#define isIOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
+
 #endif

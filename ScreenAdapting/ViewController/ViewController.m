@@ -10,6 +10,7 @@
 #import "LoginViewController.h"
 #import "RegisterViewController.h"
 #import "ForgetPassViewController.h"
+#import "MeViewController.h"
 
 @implementation ViewController
 
@@ -29,14 +30,19 @@
 }
 
 - (IBAction)PUSH {
-    //LoginViewController* loginVC = [LoginViewController new];
-    //[self.navigationController pushViewController:loginVC animated:YES];
+//    LoginViewController* loginVC = [LoginViewController new];
+//    [self.navigationController pushViewController:loginVC animated:YES];
+//    
+//    RegisterViewController* registerVC = [RegisterViewController new];
+//    [self.navigationController pushViewController:registerVC animated:YES];
+//    
+    //ForgetPassViewController* forgetPassVC = [ForgetPassViewController new];
+    //[self.navigationController pushViewController:forgetPassVC animated:YES];
     
-    //RegisterViewController* registerVC = [RegisterViewController new];
-    //[self.navigationController pushViewController:registerVC animated:YES];
+   // NSLog(@"%@",self.navigationController.navigationBar);
     
-    ForgetPassViewController* forgetPassVC = [ForgetPassViewController new];
-    [self.navigationController pushViewController:forgetPassVC animated:YES];
+    MeViewController* meViewController = [MeViewController new];
+    [self.navigationController pushViewController:meViewController animated:YES];
 }
 
 @end
