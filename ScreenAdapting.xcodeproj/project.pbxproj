@@ -12,6 +12,8 @@
 		783209E81B1C558600CB51EB /* FansCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 783209E61B1C558600CB51EB /* FansCell.m */; };
 		783209E91B1C558600CB51EB /* FansCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783209E71B1C558600CB51EB /* FansCell.xib */; };
 		783209EC1B1C587300CB51EB /* ViewControIIer.m in Sources */ = {isa = PBXBuildFile; fileRef = 783209EB1B1C587300CB51EB /* ViewControIIer.m */; };
+		783209EE1B1C5C0A00CB51EB /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 783209ED1B1C5C0A00CB51EB /* pic.png */; };
+		783209F01B1C5C1400CB51EB /* pic-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 783209EF1B1C5C1400CB51EB /* pic-bg.png */; };
 		78C921981B18111D006A3726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921971B18111D006A3726 /* main.m */; };
 		78C9219B1B18111D006A3726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9219A1B18111D006A3726 /* AppDelegate.m */; };
 		78C921A11B18111D006A3726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C9219F1B18111D006A3726 /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		783209E71B1C558600CB51EB /* FansCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FansCell.xib; sourceTree = "<group>"; };
 		783209EA1B1C587300CB51EB /* ViewControIIer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControIIer.h; path = ScreenAdapting/ViewController/ViewControIIer.h; sourceTree = SOURCE_ROOT; };
 		783209EB1B1C587300CB51EB /* ViewControIIer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControIIer.m; path = ScreenAdapting/ViewController/ViewControIIer.m; sourceTree = SOURCE_ROOT; };
+		783209ED1B1C5C0A00CB51EB /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		783209EF1B1C5C1400CB51EB /* pic-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic-bg.png"; sourceTree = "<group>"; };
 		78C921921B18111D006A3726 /* ScreenAdapting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenAdapting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C921961B18111D006A3726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78C921971B18111D006A3726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		78C921951B18111D006A3726 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				783209EF1B1C5C1400CB51EB /* pic-bg.png */,
+				783209ED1B1C5C0A00CB51EB /* pic.png */,
 				78C921961B18111D006A3726 /* Info.plist */,
 				78C921971B18111D006A3726 /* main.m */,
 			);
@@ -324,11 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				783209E31B1C459200CB51EB /* FansViewController.xib in Resources */,
+				783209F01B1C5C1400CB51EB /* pic-bg.png in Resources */,
 				78F25A751B1BFD270095A5D3 /* SplitThickCell.xib in Resources */,
 				78F25A731B1BFD270095A5D3 /* MeViewController.xib in Resources */,
 				78C921E81B1865C0006A3726 /* LoginViewController.xib in Resources */,
 				78C921C01B18138A006A3726 /* Images.xcassets in Resources */,
 				783209E91B1C558600CB51EB /* FansCell.xib in Resources */,
+				783209EE1B1C5C0A00CB51EB /* pic.png in Resources */,
 				78F25A771B1BFD270095A5D3 /* SplitThinCell.xib in Resources */,
 				78C921A11B18111D006A3726 /* Main.storyboard in Resources */,
 				78F25A791B1BFD270095A5D3 /* userCenterCell.xib in Resources */,

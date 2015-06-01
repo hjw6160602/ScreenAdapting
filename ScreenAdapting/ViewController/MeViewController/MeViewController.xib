@@ -20,22 +20,22 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-            <point key="canvasLocation" x="445" y="334"/>
+            <point key="canvasLocation" x="445" y="324"/>
         </view>
         <view contentMode="scaleToFill" id="6x1-lG-w6s">
             <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic-bg" id="Umf-xu-QQh">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic-bg.png" id="Umf-xu-QQh">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic" id="Hf3-KH-X7H">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic.png" id="Hf3-KH-X7H">
                     <rect key="frame" x="119" y="9" width="80" height="80"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MXe-Qn-cUx">
-                    <rect key="frame" x="71" y="97.000000234161092" width="178" height="21"/>
+                    <rect key="frame" x="71" y="97.000000533807935" width="178" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -55,8 +55,8 @@
         </view>
     </objects>
     <resources>
-        <image name="pic" width="100" height="100"/>
-        <image name="pic-bg" width="320" height="135"/>
+        <image name="pic-bg.png" width="640" height="271"/>
+        <image name="pic.png" width="200" height="200"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
