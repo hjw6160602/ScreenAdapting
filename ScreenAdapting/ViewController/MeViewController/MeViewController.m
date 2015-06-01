@@ -33,8 +33,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    self.portraitImageView.contentMode = UIViewContentModeScaleAspectFit;
-
 
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.automaticallyAdjustsScrollViewInsets = NO;
@@ -74,14 +72,14 @@
 
 -(void)initTable
 {
-//    _userCenterTable=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, Screen_width, Screen_height)];
-    if (isIOS7) {
+    if (isIOS7)
         _userCenterTable=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, Screen_width, Screen_height-64-44)];
-    }else{
+    else
         _userCenterTable=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, Screen_width, Screen_height-44-44)];
-        
-    }
 
+    NSLog(@"表格宽%f,表格高%f",_userCenterTable.frame.size.width,_userCenterTable.frame.size.height);
+    NSLog(@"屏幕宽%f,屏幕高%f",self.view.bounds.size.width, self.view.bounds.size.height);
+    
     _userCenterTable.delegate=self;
     _userCenterTable.dataSource=self;
     _userCenterTable.showsVerticalScrollIndicator=NO;
@@ -93,49 +91,50 @@
 }
 
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row%2 == 0) {
-        return 45;
-    }else if (indexPath.row == 5||indexPath.row == 11||indexPath.row == 17){
-        return 5;
-    }else{
-        return 1;
+        if (Screen_width == 414) return 55;
+        else return 45;
     }
+    else if (indexPath.row == 5||indexPath.row == 11||indexPath.row == 17)
+        return 5;
+    else return 1;
 }
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return _labNameArr.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell;
     if (indexPath.row%2 == 0) {
-        static NSString *ident=@"mainCell";
-        cell = [tableView dequeueReusableCellWithIdentifier:ident];
+        static NSString *indentifier = @"userCenterCell";
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:indentifier];
         if (cell == nil) {
             cell =[[[NSBundle mainBundle]loadNibNamed:@"userCenterCell" owner:self options:nil]lastObject];
         }
-    }else if (indexPath.row == 5||indexPath.row == 11||indexPath.row == 15){
-        static NSString *splitThickIdent = @"splitThickCell";
-        cell = [tableView dequeueReusableCellWithIdentifier:splitThickIdent];
+        UIImageView* iconView = (UIImageView*)[cell viewWithTag:101];
+        iconView.image = [UIImage imageNamed:_iconArr[indexPath.row]];
+        UILabel* iconNameLab = (UILabel*)[cell viewWithTag:102];
+        iconNameLab.text = _labNameArr[indexPath.row];
+        return cell;
+    }
+    else if (indexPath.row == 5||indexPath.row == 11||indexPath.row == 15){
+        static NSString *indentifier = @"splitThickCell";
+        UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:indentifier];
         if (cell == nil) {
             cell =[[[NSBundle mainBundle]loadNibNamed:@"SplitThickCell" owner:self options:nil]lastObject];
         }
-    }else{
-        static NSString *splitThinIdent = @"splitThinCell";
-        cell = [tableView dequeueReusableCellWithIdentifier:splitThinIdent];
+        return cell;
+    }
+    else{
+        static NSString *indentifier = @"splitThinCell";
+        UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:indentifier];
         if (cell == nil) {
             cell =[[[NSBundle mainBundle]loadNibNamed:@"SplitThinCell" owner:self options:nil]lastObject];
         }
+        return cell;
     }
-    
-    UIImageView* iconView = (UIImageView*)[cell viewWithTag:101];
-    iconView.image = [UIImage imageNamed:_iconArr[indexPath.row]];
-    UILabel* iconNameLab = (UILabel*)[cell viewWithTag:102];
-    iconNameLab.text = _labNameArr[indexPath.row];
-    return cell;
-    
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
