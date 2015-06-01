@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783209E21B1C459200CB51EB /* FansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783209E01B1C459200CB51EB /* FansViewController.m */; };
+		783209E31B1C459200CB51EB /* FansViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783209E11B1C459200CB51EB /* FansViewController.xib */; };
+		783209E81B1C558600CB51EB /* FansCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 783209E61B1C558600CB51EB /* FansCell.m */; };
+		783209E91B1C558600CB51EB /* FansCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783209E71B1C558600CB51EB /* FansCell.xib */; };
+		783209EC1B1C587300CB51EB /* ViewControIIer.m in Sources */ = {isa = PBXBuildFile; fileRef = 783209EB1B1C587300CB51EB /* ViewControIIer.m */; };
 		78C921981B18111D006A3726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C921971B18111D006A3726 /* main.m */; };
 		78C9219B1B18111D006A3726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9219A1B18111D006A3726 /* AppDelegate.m */; };
 		78C921A11B18111D006A3726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C9219F1B18111D006A3726 /* Main.storyboard */; };
@@ -42,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		783209DF1B1C459200CB51EB /* FansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FansViewController.h; sourceTree = "<group>"; };
+		783209E01B1C459200CB51EB /* FansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FansViewController.m; sourceTree = "<group>"; };
+		783209E11B1C459200CB51EB /* FansViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FansViewController.xib; sourceTree = "<group>"; };
+		783209E51B1C558600CB51EB /* FansCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FansCell.h; sourceTree = "<group>"; };
+		783209E61B1C558600CB51EB /* FansCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FansCell.m; sourceTree = "<group>"; };
+		783209E71B1C558600CB51EB /* FansCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FansCell.xib; sourceTree = "<group>"; };
+		783209EA1B1C587300CB51EB /* ViewControIIer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControIIer.h; path = ScreenAdapting/ViewController/ViewControIIer.h; sourceTree = SOURCE_ROOT; };
+		783209EB1B1C587300CB51EB /* ViewControIIer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControIIer.m; path = ScreenAdapting/ViewController/ViewControIIer.m; sourceTree = SOURCE_ROOT; };
 		78C921921B18111D006A3726 /* ScreenAdapting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenAdapting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C921961B18111D006A3726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78C921971B18111D006A3726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +112,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		783209DE1B1C459200CB51EB /* FansController */ = {
+			isa = PBXGroup;
+			children = (
+				783209DF1B1C459200CB51EB /* FansViewController.h */,
+				783209E01B1C459200CB51EB /* FansViewController.m */,
+				783209E11B1C459200CB51EB /* FansViewController.xib */,
+				783209E51B1C558600CB51EB /* FansCell.h */,
+				783209E61B1C558600CB51EB /* FansCell.m */,
+				783209E71B1C558600CB51EB /* FansCell.xib */,
+			);
+			path = FansController;
+			sourceTree = "<group>";
+		};
 		78C921891B18111D006A3726 = {
 			isa = PBXGroup;
 			children = (
@@ -161,8 +187,11 @@
 		78C921BB1B181289006A3726 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				783209DE1B1C459200CB51EB /* FansController */,
 				78F25A651B1BFD270095A5D3 /* MeViewController */,
 				78C921DB1B1865C0006A3726 /* LogRegForget */,
+				783209EA1B1C587300CB51EB /* ViewControIIer.h */,
+				783209EB1B1C587300CB51EB /* ViewControIIer.m */,
 				78C921BC1B181289006A3726 /* ViewController.h */,
 				78C921BD1B181289006A3726 /* ViewController.m */,
 			);
@@ -294,10 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783209E31B1C459200CB51EB /* FansViewController.xib in Resources */,
 				78F25A751B1BFD270095A5D3 /* SplitThickCell.xib in Resources */,
 				78F25A731B1BFD270095A5D3 /* MeViewController.xib in Resources */,
 				78C921E81B1865C0006A3726 /* LoginViewController.xib in Resources */,
 				78C921C01B18138A006A3726 /* Images.xcassets in Resources */,
+				783209E91B1C558600CB51EB /* FansCell.xib in Resources */,
 				78F25A771B1BFD270095A5D3 /* SplitThinCell.xib in Resources */,
 				78C921A11B18111D006A3726 /* Main.storyboard in Resources */,
 				78F25A791B1BFD270095A5D3 /* userCenterCell.xib in Resources */,
@@ -321,8 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783209EC1B1C587300CB51EB /* ViewControIIer.m in Sources */,
 				78C921BE1B181289006A3726 /* ViewController.m in Sources */,
 				78F25A761B1BFD270095A5D3 /* SplitThinCell.m in Sources */,
+				783209E21B1C459200CB51EB /* FansViewController.m in Sources */,
+				783209E81B1C558600CB51EB /* FansCell.m in Sources */,
 				78C921E51B1865C0006A3726 /* ForgetPassViewController.m in Sources */,
 				78C921E71B1865C0006A3726 /* LoginViewController.m in Sources */,
 				78F25A781B1BFD270095A5D3 /* userCenterCell.m in Sources */,

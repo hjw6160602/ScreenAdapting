@@ -11,6 +11,7 @@
 #import "RegisterViewController.h"
 #import "ForgetPassViewController.h"
 #import "MeViewController.h"
+#import "FansViewController.h"
 
 @implementation ViewController
 
@@ -36,13 +37,14 @@
 //    RegisterViewController* registerVC = [RegisterViewController new];
 //    [self.navigationController pushViewController:registerVC animated:YES];
 //    
-    //ForgetPassViewController* forgetPassVC = [ForgetPassViewController new];
-    //[self.navigationController pushViewController:forgetPassVC animated:YES];
+//    ForgetPassViewController* forgetPassVC = [ForgetPassViewController new];
+//    [self.navigationController pushViewController:forgetPassVC animated:YES];
+//    
+//    MeViewController* meViewController = [MeViewController new];
+//    [self.navigationController pushViewController:meViewController animated:YES];
     
-   // NSLog(@"%@",self.navigationController.navigationBar);
-    
-    MeViewController* meViewController = [MeViewController new];
-    [self.navigationController pushViewController:meViewController animated:YES];
+    FansViewController* fansViewController = [FansViewController new];
+    [self.navigationController pushViewController:fansViewController animated:YES];
 }
 
 @end

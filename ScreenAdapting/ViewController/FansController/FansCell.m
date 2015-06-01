@@ -1,18 +1,17 @@
 //
-//  SplitThinCell.m
-//  BestCake
+//  FansCell.m
+//  ScreenAdapting
 //
-//  Created by 123 on 15-4-8.
-//  Copyright (c) 2015年 shoule. All rights reserved.
+//  Created by shoule on 15/6/1.
+//  Copyright (c) 2015年 SaiDicaprio. All rights reserved.
 //
 
-#import "SplitThinCell.h"
+#import "FansCell.h"
 
-@implementation SplitThinCell
+@implementation FansCell
 
 - (void)awakeFromNib {
     // Initialization code
-    self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

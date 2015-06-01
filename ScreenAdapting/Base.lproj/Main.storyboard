@@ -31,22 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1949.5" y="145.5"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="Plp-KD-Lhm">
-            <objects>
-                <viewController id="Bu0-AJ-pQK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zcx-m9-fQd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="8P9-26-alm"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ln-dx-83G" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1488" y="787"/>
+            <point key="canvasLocation" x="1882" y="787"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="lKL-Ub-4j4">
@@ -59,7 +44,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Bu0-AJ-pQK" kind="relationship" relationship="viewControllers" id="Ehe-6f-SSr"/>
+                        <segue destination="g5k-1v-hoc" kind="relationship" relationship="viewControllers" id="Ehe-6f-SSr"/>
                         <segue destination="1hz-na-1oI" kind="relationship" relationship="viewControllers" id="4BY-YO-ANp"/>
                     </connections>
                 </tabBarController>
@@ -79,12 +64,59 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="eXr-kX-uhy"/>
+                        <segue destination="AV8-Xo-8uL" kind="relationship" relationship="rootViewController" id="goM-os-yRY"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7nj-Zx-cbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1488" y="146"/>
+        </scene>
+        <!--语音功能-->
+        <scene sceneID="hrM-j9-8L8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g5k-1v-hoc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="语音功能" id="8P9-26-alm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qBj-NL-cLK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="EjK-fd-s3r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nM4-RA-SU1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488" y="787"/>
+        </scene>
+        <!--我-->
+        <scene sceneID="Hwa-Yt-Atb">
+            <objects>
+                <viewController id="AV8-Xo-8uL" customClass="ViewControIIer" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KlO-jO-UKb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SET-QA-UpD">
+                                <rect key="frame" x="69" y="217" width="182" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="PUSH">
+                                    <color key="titleColor" red="0.85098039219999999" green="0.21176470589999999" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PUSH" destination="AV8-Xo-8uL" eventType="touchUpInside" id="ZFa-z0-616"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我" id="n2j-zD-NWJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMm-nN-237" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1882" y="146"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
